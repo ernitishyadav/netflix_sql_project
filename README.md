@@ -50,7 +50,7 @@ SELECT COUNT(*) as total_content FROM netflix_data;
 select distinct type from netflix_data;
 
 
--- 15 Business Problems & Solutions
+-- 13 Business Problems & Solutions
 
 -- 1. Count the number of Movies vs TV Shows
 
@@ -110,12 +110,13 @@ select date_added from netflix_data where  date_sub(now(), interval 5 year);
 
 -- 7. Find all the movies/TV shows by director 'Rajiv Chilaka'!
 
-use netflix;
+
   select  
         `type`,
         director  
 from netflix_data 
-where  director like  '%Rajiv Chilaka%';
+where  
+director like  '%Rajiv Chilaka%';
 
 
 
