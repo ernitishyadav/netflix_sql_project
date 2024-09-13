@@ -10,8 +10,9 @@ releasing year, directior name ,actor name etc.
 
 
 ## objective
-<ul>Analyze the distribution of content types (movies vs TV shows).</ul>
-<ul>Identify the most common ratings for movies and TV shows.</ul>
-<ul>List and analyze content based on release years, countries, and durations.</ul>
-<ul>Explore and categorize content based on specific criteria and keywords.</ul>
-
+<ul>
+ <li>Analyze the distribution of content types (movies vs TV shows).</li> 
+ <li>Identify the most common ratings for movies and TV shows.</li>
+<li>List and analyze content based on release years, countries, and durations.</li>
+ <li>Explore and categorize content based on specific criteria and keywords.</li>
+</ul>
